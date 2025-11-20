@@ -1,0 +1,223 @@
+=== REPORTE DE MÉTRICAS ===
+Fecha: 2025-11-20T08:07:34.935680600
+
+--- ESTADÍSTICAS GENERALES ---
+Total solicitudes procesadas: 200
+Solicitudes exitosas: 200
+Solicitudes fallidas: 0
+Tasa de éxito: 100,00%
+
+--- ESTADÍSTICAS POR COMPONENTE ---
+PS: Promedio=40,57 ms, Min=1 ms, Max=112 ms, Total=200, Exitosas=200
+
+--- ESTADÍSTICAS POR OPERACIÓN ---
+ENVIO_SOLICITUD: Promedio=40,18 ms, Min=1 ms, Max=111 ms, Exitosas=100/100
+LECTURA_LINEA: Promedio=40,97 ms, Min=2 ms, Max=112 ms, Exitosas=100/100
+
+--- DETALLES DE MÉTRICAS ---
+Componente | Operación | Duración (ms) | Éxito | Detalles
+------------------------------------------------------------
+PS | ENVIO_SOLICITUD | 83,42 | Sí | PRESTAMO:1 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 99,52 | Sí | Línea 1
+PS | ENVIO_SOLICITUD | 65,96 | Sí | PRESTAMO:3 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,47 | Sí | Línea 2
+PS | ENVIO_SOLICITUD | 65,19 | Sí | PRESTAMO:6 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,74 | Sí | Línea 3
+PS | ENVIO_SOLICITUD | 2,31 | Sí | DEVOLVER:2 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 3,64 | Sí | Línea 4
+PS | ENVIO_SOLICITUD | 18,18 | Sí | RENOVAR:4 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 18,78 | Sí | Línea 5
+PS | ENVIO_SOLICITUD | 65,29 | Sí | PRESTAMO:8 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,79 | Sí | Línea 6
+PS | ENVIO_SOLICITUD | 2,44 | Sí | DEVOLVER:5 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 3,17 | Sí | Línea 7
+PS | ENVIO_SOLICITUD | 2,59 | Sí | RENOVAR:7 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 3,07 | Sí | Línea 8
+PS | ENVIO_SOLICITUD | 1,99 | Sí | DEVOLVER:9 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,54 | Sí | Línea 9
+PS | ENVIO_SOLICITUD | 67,41 | Sí | PRESTAMO:11 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 67,90 | Sí | Línea 10
+PS | ENVIO_SOLICITUD | 64,92 | Sí | PRESTAMO:12 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,51 | Sí | Línea 11
+PS | ENVIO_SOLICITUD | 2,94 | Sí | DEVOLVER:10 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 3,89 | Sí | Línea 12
+PS | ENVIO_SOLICITUD | 2,26 | Sí | RENOVAR:13 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 2,95 | Sí | Línea 13
+PS | ENVIO_SOLICITUD | 64,38 | Sí | PRESTAMO:17 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 64,90 | Sí | Línea 14
+PS | ENVIO_SOLICITUD | 1,81 | Sí | DEVOLVER:14 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,29 | Sí | Línea 15
+PS | ENVIO_SOLICITUD | 64,52 | Sí | PRESTAMO:21 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,09 | Sí | Línea 16
+PS | ENVIO_SOLICITUD | 2,22 | Sí | DEVOLVER:15 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,78 | Sí | Línea 17
+PS | ENVIO_SOLICITUD | 3,07 | Sí | RENOVAR:16 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 3,69 | Sí | Línea 18
+PS | ENVIO_SOLICITUD | 66,50 | Sí | PRESTAMO:23 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 67,10 | Sí | Línea 19
+PS | ENVIO_SOLICITUD | 64,89 | Sí | PRESTAMO:24 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,47 | Sí | Línea 20
+PS | ENVIO_SOLICITUD | 1,76 | Sí | DEVOLVER:18 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,36 | Sí | Línea 21
+PS | ENVIO_SOLICITUD | 2,86 | Sí | RENOVAR:19 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 3,64 | Sí | Línea 22
+PS | ENVIO_SOLICITUD | 65,06 | Sí | PRESTAMO:26 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,70 | Sí | Línea 23
+PS | ENVIO_SOLICITUD | 65,41 | Sí | PRESTAMO:27 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,00 | Sí | Línea 24
+PS | ENVIO_SOLICITUD | 1,88 | Sí | DEVOLVER:20 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,57 | Sí | Línea 25
+PS | ENVIO_SOLICITUD | 2,45 | Sí | RENOVAR:22 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 3,11 | Sí | Línea 26
+PS | ENVIO_SOLICITUD | 65,53 | Sí | PRESTAMO:29 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,09 | Sí | Línea 27
+PS | ENVIO_SOLICITUD | 65,44 | Sí | PRESTAMO:30 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,96 | Sí | Línea 28
+PS | ENVIO_SOLICITUD | 3,30 | Sí | DEVOLVER:25 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 3,91 | Sí | Línea 29
+PS | ENVIO_SOLICITUD | 2,04 | Sí | RENOVAR:28 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 2,45 | Sí | Línea 30
+PS | ENVIO_SOLICITUD | 64,17 | Sí | PRESTAMO:32 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 64,75 | Sí | Línea 31
+PS | ENVIO_SOLICITUD | 65,74 | Sí | PRESTAMO:33 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,44 | Sí | Línea 32
+PS | ENVIO_SOLICITUD | 2,26 | Sí | DEVOLVER:31 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,72 | Sí | Línea 33
+PS | ENVIO_SOLICITUD | 14,75 | Sí | RENOVAR:34 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 15,63 | Sí | Línea 34
+PS | ENVIO_SOLICITUD | 109,06 | Sí | PRESTAMO:35 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 110,38 | Sí | Línea 35
+PS | ENVIO_SOLICITUD | 65,25 | Sí | PRESTAMO:36 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,98 | Sí | Línea 36
+PS | ENVIO_SOLICITUD | 2,95 | Sí | DEVOLVER:37 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 3,81 | Sí | Línea 37
+PS | ENVIO_SOLICITUD | 64,89 | Sí | PRESTAMO:38 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,45 | Sí | Línea 38
+PS | ENVIO_SOLICITUD | 67,57 | Sí | PRESTAMO:39 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 68,10 | Sí | Línea 39
+PS | ENVIO_SOLICITUD | 1,99 | Sí | RENOVAR:40 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 2,64 | Sí | Línea 40
+PS | ENVIO_SOLICITUD | 65,57 | Sí | PRESTAMO:41 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,23 | Sí | Línea 41
+PS | ENVIO_SOLICITUD | 65,46 | Sí | PRESTAMO:42 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,05 | Sí | Línea 42
+PS | ENVIO_SOLICITUD | 2,23 | Sí | DEVOLVER:43 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,92 | Sí | Línea 43
+PS | ENVIO_SOLICITUD | 68,48 | Sí | PRESTAMO:44 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 69,01 | Sí | Línea 44
+PS | ENVIO_SOLICITUD | 64,21 | Sí | PRESTAMO:45 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 64,76 | Sí | Línea 45
+PS | ENVIO_SOLICITUD | 2,83 | Sí | RENOVAR:46 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 3,78 | Sí | Línea 46
+PS | ENVIO_SOLICITUD | 65,63 | Sí | PRESTAMO:47 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,28 | Sí | Línea 47
+PS | ENVIO_SOLICITUD | 64,33 | Sí | PRESTAMO:48 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 64,96 | Sí | Línea 48
+PS | ENVIO_SOLICITUD | 3,21 | Sí | DEVOLVER:49 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 4,26 | Sí | Línea 49
+PS | ENVIO_SOLICITUD | 65,13 | Sí | PRESTAMO:50 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,55 | Sí | Línea 50
+PS | ENVIO_SOLICITUD | 65,71 | Sí | PRESTAMO:51 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,18 | Sí | Línea 51
+PS | ENVIO_SOLICITUD | 2,75 | Sí | RENOVAR:52 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 3,34 | Sí | Línea 52
+PS | ENVIO_SOLICITUD | 66,09 | Sí | PRESTAMO:53 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,71 | Sí | Línea 53
+PS | ENVIO_SOLICITUD | 65,95 | Sí | PRESTAMO:54 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,62 | Sí | Línea 54
+PS | ENVIO_SOLICITUD | 2,06 | Sí | DEVOLVER:55 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,58 | Sí | Línea 55
+PS | ENVIO_SOLICITUD | 64,59 | Sí | PRESTAMO:56 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,36 | Sí | Línea 56
+PS | ENVIO_SOLICITUD | 66,50 | Sí | PRESTAMO:57 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 67,31 | Sí | Línea 57
+PS | ENVIO_SOLICITUD | 1,71 | Sí | RENOVAR:58 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 2,27 | Sí | Línea 58
+PS | ENVIO_SOLICITUD | 64,79 | Sí | PRESTAMO:59 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,31 | Sí | Línea 59
+PS | ENVIO_SOLICITUD | 65,94 | Sí | PRESTAMO:60 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,47 | Sí | Línea 60
+PS | ENVIO_SOLICITUD | 2,45 | Sí | DEVOLVER:61 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,95 | Sí | Línea 61
+PS | ENVIO_SOLICITUD | 2,15 | Sí | RENOVAR:62 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 2,71 | Sí | Línea 62
+PS | ENVIO_SOLICITUD | 65,27 | Sí | PRESTAMO:63 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,84 | Sí | Línea 63
+PS | ENVIO_SOLICITUD | 65,91 | Sí | PRESTAMO:65 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,58 | Sí | Línea 64
+PS | ENVIO_SOLICITUD | 3,26 | Sí | DEVOLVER:64 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 4,07 | Sí | Línea 65
+PS | ENVIO_SOLICITUD | 111,67 | Sí | PRESTAMO:66 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 112,71 | Sí | Línea 66
+PS | ENVIO_SOLICITUD | 1,97 | Sí | RENOVAR:67 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 2,47 | Sí | Línea 67
+PS | ENVIO_SOLICITUD | 65,56 | Sí | PRESTAMO:68 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,27 | Sí | Línea 68
+PS | ENVIO_SOLICITUD | 1,97 | Sí | DEVOLVER:69 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,55 | Sí | Línea 69
+PS | ENVIO_SOLICITUD | 2,54 | Sí | RENOVAR:70 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 3,05 | Sí | Línea 70
+PS | ENVIO_SOLICITUD | 64,01 | Sí | PRESTAMO:71 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 64,59 | Sí | Línea 71
+PS | ENVIO_SOLICITUD | 64,65 | Sí | PRESTAMO:72 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,18 | Sí | Línea 72
+PS | ENVIO_SOLICITUD | 1,83 | Sí | DEVOLVER:73 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,38 | Sí | Línea 73
+PS | ENVIO_SOLICITUD | 64,71 | Sí | PRESTAMO:74 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,24 | Sí | Línea 74
+PS | ENVIO_SOLICITUD | 65,16 | Sí | PRESTAMO:75 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,91 | Sí | Línea 75
+PS | ENVIO_SOLICITUD | 1,99 | Sí | RENOVAR:76 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 2,51 | Sí | Línea 76
+PS | ENVIO_SOLICITUD | 64,59 | Sí | PRESTAMO:77 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,12 | Sí | Línea 77
+PS | ENVIO_SOLICITUD | 65,18 | Sí | PRESTAMO:78 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,84 | Sí | Línea 78
+PS | ENVIO_SOLICITUD | 2,96 | Sí | DEVOLVER:79 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 3,94 | Sí | Línea 79
+PS | ENVIO_SOLICITUD | 64,70 | Sí | PRESTAMO:80 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,26 | Sí | Línea 80
+PS | ENVIO_SOLICITUD | 64,13 | Sí | PRESTAMO:81 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 64,66 | Sí | Línea 81
+PS | ENVIO_SOLICITUD | 2,57 | Sí | RENOVAR:82 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 3,16 | Sí | Línea 82
+PS | ENVIO_SOLICITUD | 65,12 | Sí | PRESTAMO:83 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,65 | Sí | Línea 83
+PS | ENVIO_SOLICITUD | 66,26 | Sí | PRESTAMO:84 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,81 | Sí | Línea 84
+PS | ENVIO_SOLICITUD | 2,70 | Sí | DEVOLVER:85 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 3,33 | Sí | Línea 85
+PS | ENVIO_SOLICITUD | 66,09 | Sí | PRESTAMO:86 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 66,88 | Sí | Línea 86
+PS | ENVIO_SOLICITUD | 65,05 | Sí | PRESTAMO:87 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,56 | Sí | Línea 87
+PS | ENVIO_SOLICITUD | 2,29 | Sí | RENOVAR:88 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 3,15 | Sí | Línea 88
+PS | ENVIO_SOLICITUD | 63,76 | Sí | PRESTAMO:89 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 64,27 | Sí | Línea 89
+PS | ENVIO_SOLICITUD | 65,23 | Sí | PRESTAMO:90 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,71 | Sí | Línea 90
+PS | ENVIO_SOLICITUD | 1,74 | Sí | DEVOLVER:91 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,23 | Sí | Línea 91
+PS | ENVIO_SOLICITUD | 64,96 | Sí | PRESTAMO:92 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,42 | Sí | Línea 92
+PS | ENVIO_SOLICITUD | 64,69 | Sí | PRESTAMO:93 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,20 | Sí | Línea 93
+PS | ENVIO_SOLICITUD | 1,82 | Sí | RENOVAR:94 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 2,34 | Sí | Línea 94
+PS | ENVIO_SOLICITUD | 63,37 | Sí | PRESTAMO:95 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 63,90 | Sí | Línea 95
+PS | ENVIO_SOLICITUD | 65,14 | Sí | PRESTAMO:96 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,62 | Sí | Línea 96
+PS | ENVIO_SOLICITUD | 1,75 | Sí | DEVOLVER:97 -> Devolución aceptada, gracias.
+PS | LECTURA_LINEA | 2,70 | Sí | Línea 97
+PS | ENVIO_SOLICITUD | 62,49 | Sí | PRESTAMO:98 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 63,02 | Sí | Línea 98
+PS | ENVIO_SOLICITUD | 64,56 | Sí | PRESTAMO:99 -> Préstamo rechazado: NO (ya está prestado)
+PS | LECTURA_LINEA | 65,08 | Sí | Línea 99
+PS | ENVIO_SOLICITUD | 2,25 | Sí | RENOVAR:100 -> Renovación aceptada, nueva fecha: 2025-11-27
+PS | LECTURA_LINEA | 2,72 | Sí | Línea 100
+
+--- RECURSOS DEL SISTEMA ---
+Memoria: 10,00 MB / 1886,00 MB (0,5%)
+CPU Time: 468,75 ms
